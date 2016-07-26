@@ -2249,7 +2249,9 @@ select[multiple].navbar-form .btn {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 .navbar-default {
-  background-color: #ecf0f1;
+  /*background-color: #ecf0f1;*/
+  background-color: #fff;
+
 }
 .navbar-default .navbar-brand {
   color: #34495e;
@@ -4452,7 +4454,7 @@ body.vjs-full-window {
   }
 }
 footer {
-  background-color: #edeff1;
+  background-color: #232323; /*#edeff1;*/
   color: #bac1c8;
   font-size: 15px;
   padding: 0;
@@ -4481,7 +4483,7 @@ footer p {
   width: 216px;
 }
 .footer-banner {
-  background-color: #34495e;
+  background-color: #ff5d38; /*#34495e;*/
   color: #fff;
   margin-left: 42px;
   min-height: 316px;
