@@ -72,6 +72,42 @@ max-width: 250px;
 margin: auto;
 }
 
+#owl-demo {
+	max-width: 900px;
+	margin: 0 auto;
+	background: #0ba04d;
+	box-shadow: inset 0 0 5px 2px #0a8a44;
+}
+
+.feedback-text {
+	color: #c5e6d4;
+}
+
+.owl-item {
+	padding: 20px;
+}
+
+.owl-item .item span {
+	color: #005827;
+}
+
+.owl-item .item span.author {
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+}
+
+h2 {
+	margin: 0 0 50px 0 !important;
+}
+
+#owl-demo .item {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	margin: 20px;
+}
+
 .h1_home{
 	font-size: 80px;
 	font-family: arvo;
@@ -196,7 +232,7 @@ width: 50px;
 }
 
 .owl-theme .owl-controls .owl-page span {
-background: #1abc9c !important;
+background: white !important;
 }
 
 /* Nav */
@@ -298,8 +334,6 @@ color: #ECEBEB;
 }
 
 .content-section-b {
-	border-top: 1px solid #e7e7e7;
-	border-bottom: 1px solid #e7e7e7;
 	padding: 90px 0; 
 }
 
