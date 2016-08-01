@@ -327,6 +327,7 @@ li{list-style-type:none}
   font-size: 20px;
   line-height: 1.46428571;
   font-weight: 300;
+  color: #bdbdbd;
 }
 @media (min-width: 768px) {
   .lead {
@@ -532,8 +533,7 @@ a.thumbnail.active {
   color: #34495e;
 }
 .btn {
-
-  font-size: 15px;
+  font-size: 20px;
   font-weight: normal;
   line-height: 1.4;
   border-radius: 4px;
@@ -613,7 +613,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #1abc9c;
+  background-color: #fe7813; /*#1abc9c;*/
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -621,8 +621,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #48c9b0;
-  border-color: #48c9b0;
+  background-color: #e46709;
+  border-color: #e46709;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -650,7 +650,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-info {
   color: #ffffff;
-  background-color: #3498db;
+  background-color: #0d9eff; /*#3498db;*/
 }
 .btn-info:hover,
 .btn-info:focus,
@@ -658,8 +658,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-info.active,
 .open .dropdown-toggle.btn-info {
   color: #ffffff;
-  background-color: #5dade2;
-  border-color: #5dade2;
+  background-color: #0a7ecc;
+  border-color: #0a7ecc;
 }
 .btn-info:active,
 .btn-info.active,
@@ -2258,7 +2258,7 @@ select[multiple].navbar-form .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #1abc9c;
+  color: #fe7813; /*#1abc9c;*/
   background-color: transparent;
 }
 .navbar-default .navbar-toggle:before {
@@ -2282,7 +2282,7 @@ select[multiple].navbar-form .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #1abc9c;
+  color: #fe7813; /*#1abc9c;*/
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -4454,7 +4454,7 @@ body.vjs-full-window {
   }
 }
 footer {
-  background-color: #232323; /*#edeff1;*/
+  background-color: #383838; /*#232323; #edeff1;*/
   color: #bac1c8;
   font-size: 15px;
   padding: 0;

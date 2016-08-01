@@ -32,7 +32,14 @@
 	<link href="css/animate.css" rel="stylesheet">
 	
 	<!-- Magnific Popup core CSS file -->
-	<link rel="stylesheet" href="css/magnific-popup.css"> 
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<style>
+		.section-heading {
+			text-transform: uppercase;
+			font-size: 48px;
+		}
+	</style>
 	
 	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
 	<!--[if IE 9]>
@@ -58,13 +65,14 @@
 	<!-- FullScreen -->
     <div class="intro-header">
 		<div class="col-xs-12 text-center abcen1">
-			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s"><strong>Devela<span style="color: #ff7914">X</span></strong></h1>
-			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">web development company</h3>
+			<img src="/img/icon/develax_logo_bg.png" style="width: 200px">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s"><strong>devela<span style="color:  #f5511f">X</span></strong></h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, cumque.</h3>
 			<ul class="list-inline intro-social-buttons">
-				<li><a href="https://twitter.com/galantiandrea" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
-				</li>
-				<li id="download" ><a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
-				</li>
+				<li><a class="btn btn-embossed btn-primary" style="background: #f5511f; margin-right: 5px; box-shadow: 0 2px 0 #3f6f21;  box-shadow: 0 2px 0 #000000; border-radius: 4px;" href="#" role="button">Build a website</a></li>
+				<li><a class="btn btn-embossed btn-info" style="box-shadow: 0 2px 0 #3f6f21;  box-shadow: 0 2px 0 #000000; border-radius: 4px;" href="#" role="button">SEO optimization</a></li>
+				<!-- <li id="download" ><a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
+				</li> -->
 			</ul>
 		</div>    
         <!-- /.container -->
@@ -76,7 +84,7 @@
     </div>
 	
 	<!-- NavBar-->
-	<nav class="navbar-default" style="box-shadow: 0 1px 5px #c7c7c7" role="navigation">
+	<nav class="navbar-default" style="box-shadow: 0 1px 5px rgb(128, 128, 128)" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -85,7 +93,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<img src="img/icon/logo.png" style="width: 48px; margin-top: 7px; float: left"><a class="navbar-brand" href="#home"><strong>Develax</strong></a>
+				<img src="img/icon/develax_logo4.png" style="width: 48px; margin-top: 7px; float: left"><a class="navbar-brand" href="#home"><strong>develaX</strong></a>
 			</div>
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
@@ -171,7 +179,7 @@
 	</div>
 	
 	<!-- Use it -->
-    <div id ="useit" class="content-section-a">
+    <div id ="useit" class="content-section-a" style="background: #d6532b">
 
         <div class="container">
 			
@@ -182,17 +190,18 @@
                 </div>
 				
                 <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
-                    <h3 class="section-heading" style="text-transform: uppercase">Modern design</h3>
-					<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                    <p class="lead">
+                    <h3 class="section-heading">Modern design</h3>
+					<!-- <div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+ -->                    <p class="lead" style="color: #f2e5ff">
 						In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
 						Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
 						uam non erat mirum sapientiae lorem cupido
 						patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
 					</p>
 
-					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> 
-					 <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
+					 <p><a class="btn btn-embossed btn-primary" style="margin-right: 5px; box-shadow: 0 2px 0 #313131;border-radius: 8px;" href="#" role="button">View Details</a> 
+					 <!-- <a class="btn btn-embossed btn-info" style="box-shadow: 0 2px 0 #3f6f21;  box-shadow: 0 2px 0 #000000; border-radius: 8px;" href="#" role="button">Visit Website</a> -->
+					 </p>
 				</div>   
             </div>
         </div>
@@ -224,23 +233,22 @@
                 </div>
 				
                 <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
-                    <h3 class="section-heading">Drag Gallery</h3>
-					<div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                    <p class="lead">
+                    <h3 class="section-heading" style="color: #404040">Drag Gallery</h3>
+					<!-- <div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div> -->
+                    <p class="lead" style="color: #505050">
 						In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
 						Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
 						uam non erat mirum sapientiae lorem cupido
 						patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
 					</p>
 
-					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> 
-					 <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p>
-				</div>  			
+					 <p><a class="btn btn-embossed btn-info" style="margin-right: 5px; box-shadow: 0 2px 0 #636363;border-radius: 8px;" href="#" role="button">View Details</a> </p>
+				</div>
 			</div>
         </div>
     </div>
 
-    <div class="content-section-a">
+    <div class="content-section-a" style="background: #168ee4">
 
         <div class="container">
 
@@ -249,8 +257,23 @@
 				<div class="col-sm-6 pull-right wow fadeInRightBig">
                     <img class="img-responsive " src="img/doge.png" alt="">
                 </div>
-			 
+
                 <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">Modern design</h3>
+					<!-- <div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+ -->                    <p class="lead" style="color: #f2e5ff">
+						In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. 
+						Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, 
+						uam non erat mirum sapientiae lorem cupido
+						patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.
+					</p>
+
+					 <p><a class="btn btn-embossed btn-info" style="margin-right: 5px; box-shadow: 0 2px 0 #313131;border-radius: 8px;" href="#" role="button">View Details</a> 
+					 <!-- <a class="btn btn-embossed btn-info" style="box-shadow: 0 2px 0 #3f6f21;  box-shadow: 0 2px 0 #000000; border-radius: 8px;" href="#" role="button">Visit Website</a> -->
+					 </p>
+				</div>  
+			 
+                <!-- <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
                     <h3 class="section-heading">Font Awesome & Glyphicon</h3>
                     <p class="lead">A special thanks to Death to the Stock Photo for 
 					providing the photographs that you see in this template. 
@@ -261,7 +284,7 @@
 						<li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
 						<li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
 					</ul>
-				</div>           
+				</div>            -->
             </div>
         </div>
 
@@ -272,48 +295,73 @@
         <div class="container">
           <div class="row" >
 			 <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
-				<h2>Screen App</h2>
-				<p class="lead" style="margin-top:0">A special thanks to Death.</p>
+				<h2>Testimonials</h2>
 			 </div>
 		  </div>
 		    <div class="row wow bounceInUp" >
               <div id="owl-demo" class="owl-carousel">
-				
-				<a href="img/slide/1.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+
+				<div class="item">
+					<div style="text-align: center">
+						<img src="/img/feedback_avatar.png" style="display: block; margin: 20px auto">
+						<span style="font-size: 22px; font-weight: bold">Niko Bellic</span>
 					</div>
-				</a>
-				
-               <a href="img/slide/2.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+					<div style="text-align: center; font-size: 20px">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus error eligendi accusamus, tenetur esse dolorem culpa labore totam dicta, odit dolor, harum nemo odio. Tempora, magni. Ratione asperiores dicta odit, ullam molestiae, debitis, quos aspernatur illum harum numquam impedit ex rem! Facere cum, soluta ex eveniet facilis beatae, sit delectus.
 					</div>
-				</a>
+					<span style="text-align: center; display: block; font-weight: 200">21:30 19.06.2014</span>
+				</div>
 				
-				<a href="img/slide/3.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+				<div class="item">
+					<div style="text-align: center">
+						<img src="/img/feedback_avatar.png" style="display: block; margin: 20px auto">
+						<span style="font-size: 22px; font-weight: bold">Niko Bellic</span>
 					</div>
-				</a>
-				
-				<a href="img/slide/1.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
+					<div style="text-align: center; font-size: 20px">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus error eligendi accusamus, tenetur esse dolorem culpa labore totam dicta, odit dolor, harum nemo odio. Tempora, magni. Ratione asperiores dicta odit, ullam molestiae, debitis, quos aspernatur illum harum numquam impedit ex rem! Facere cum, soluta ex eveniet facilis beatae, sit delectus.
 					</div>
-				</a>
-				
-               <a href="img/slide/2.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
+					<span style="text-align: center; display: block; font-weight: 200">21:30 19.06.2014</span>
+				</div>
+				<div class="item">
+					<div style="text-align: center">
+						<img src="/img/feedback_avatar.png" style="display: block; margin: 20px auto">
+						<span style="font-size: 22px; font-weight: bold">Niko Bellic</span>
 					</div>
-				</a>
-				
-				<a href="img/slide/3.png" class="image-link">
-					<div class="item">
-						<img  class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
+					<div style="text-align: center; font-size: 20px">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus error eligendi accusamus, tenetur esse dolorem culpa labore totam dicta, odit dolor, harum nemo odio. Tempora, magni. Ratione asperiores dicta odit, ullam molestiae, debitis, quos aspernatur illum harum numquam impedit ex rem! Facere cum, soluta ex eveniet facilis beatae, sit delectus.
 					</div>
-				</a>
+					<span style="text-align: center; display: block; font-weight: 200">21:30 19.06.2014</span>
+				</div>
+				<div class="item">
+					<div style="text-align: center">
+						<img src="/img/feedback_avatar.png" style="display: block; margin: 20px auto">
+						<span style="font-size: 22px; font-weight: bold">Niko Bellic</span>
+					</div>
+					<div style="text-align: center; font-size: 20px">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus error eligendi accusamus, tenetur esse dolorem culpa labore totam dicta, odit dolor, harum nemo odio. Tempora, magni. Ratione asperiores dicta odit, ullam molestiae, debitis, quos aspernatur illum harum numquam impedit ex rem! Facere cum, soluta ex eveniet facilis beatae, sit delectus.
+					</div>
+					<span style="text-align: center; display: block; font-weight: 200">21:30 19.06.2014</span>
+				</div>
+				<div class="item">
+					<div style="text-align: center">
+						<img src="/img/feedback_avatar.png" style="display: block; margin: 20px auto">
+						<span style="font-size: 22px; font-weight: bold">Niko Bellic</span>
+					</div>
+					<div style="text-align: center; font-size: 20px">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus error eligendi accusamus, tenetur esse dolorem culpa labore totam dicta, odit dolor, harum nemo odio. Tempora, magni. Ratione asperiores dicta odit, ullam molestiae, debitis, quos aspernatur illum harum numquam impedit ex rem! Facere cum, soluta ex eveniet facilis beatae, sit delectus.
+					</div>
+					<span style="text-align: center; display: block; font-weight: 200">21:30 19.06.2014</span>
+				</div>
+				<div class="item">
+					<div style="text-align: center">
+						<img src="/img/feedback_avatar.png" style="display: block; margin: 20px auto">
+						<span style="font-size: 22px; font-weight: bold">Niko Bellic</span>
+					</div>
+					<div style="text-align: center; font-size: 20px">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus error eligendi accusamus, tenetur esse dolorem culpa labore totam dicta, odit dolor, harum nemo odio. Tempora, magni. Ratione asperiores dicta odit, ullam molestiae, debitis, quos aspernatur illum harum numquam impedit ex rem! Facere cum, soluta ex eveniet facilis beatae, sit delectus.
+					</div>
+					<span style="text-align: center; display: block; font-weight: 200">21:30 19.06.2014</span>
+				</div>
               </div>       
           </div>
         </div>
@@ -321,7 +369,7 @@
 
 	</div>
 	
-	<div  class="content-section-c ">
+	<div  class="content-section-c " style="background-image: url('/img/background_talk.jpg'); background-size: cover">
 		<div class="container">
 			<div class="row">
 			<div class="col-md-6 col-md-offset-3 text-center white">
@@ -337,8 +385,11 @@
 									<div class="content-style-form content-style-form-4 ">
 										<h2 class="morph-clone">Subscribe to our Newsletter</h2>
 										<form>
-											<p><label>Your Email Address</label><input type="text"/></p>
-											<p><button>Subscribe me</button></p>
+											<p><label>Name</label><input type="text"/></p>
+											<p><label>Email</label><input type="text"/></p>
+											<p><label>Subject</label><input type="text"/></p>
+											<p><label>Message</label><input type="text"/></p>
+											<p><button>Send</button></p>
 										</form>
 									</div>
 								</div>
@@ -425,7 +476,7 @@
 	</div>
 	
 	<!-- Contact -->
-	<div id="contact" class="content-section-a">
+	<!-- <div id="contact" class="content-section-a">
 		<div class="container">
 			<div class="row">
 			
@@ -484,7 +535,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 	
 	

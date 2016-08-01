@@ -38,7 +38,7 @@ $(document).ready(function() {
 		// OwlCarousel N1
 		$("#owl-demo").owlCarousel({
 			autoPlay: 3000,
-			items : 3,
+			items : 1,
 			itemsDesktop : [1199,3],
 			itemsDesktopSmall : [979,3]
 		});

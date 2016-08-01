@@ -87,9 +87,11 @@ margin: auto;
   margin: 3px;
 }
 #owl-demo .item img{
-  display: block;
-  width: 100%;
+  /*width: 100%;*/
   height: auto;
+  border-radius: 50%;
+  width: 150px;
+  margin: 0 auto;
 }
 
 #owl-demo-1 .item{
@@ -141,15 +143,15 @@ filter: alpha(opacity=95) !important;
 }
 
 .mybutton_cyano{
-	border: 1px solid #4A90BE;
+	border: 1px solid #ff7914; /*#4A90BE;*/
 	color: #fff;
-	background-color:#4A90BE;
+	background-color: #ff7914; /*#4A90BE;*/
 }
 
 .mybutton_cyano:hover{
-	border: 1px solid #4A90BE;
-	color: #4A90BE !important;
-	background: rgba(204, 204, 204, 0);
+	border: 1px solid #ff7914; /*#4A90BE;*/
+	color: #ff7914 !important;
+	background: rgba(255, 121, 20, 0);
 }
 
 .button_down img {
@@ -246,7 +248,7 @@ color: #ECEBEB;
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	color: #f8f8f8;
-	background: url(../img/background_dark1.jpg) no-repeat center center;
+	background: url(../img/background44.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
@@ -291,7 +293,7 @@ color: #ECEBEB;
 }
 
 .content-section-a {
-	background-color: #f8f8f8;
+	background-color: #3c2e2e;
 	padding: 90px 0; 
 }
 
@@ -303,6 +305,7 @@ color: #ECEBEB;
 
 .section-heading {
 	margin-bottom: 30px;
+	color: white;
 }
 
 .section-heading-spacer {
