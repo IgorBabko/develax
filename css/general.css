@@ -106,6 +106,22 @@ margin: auto;
 	text-align: center;
 }
 
+.wow img {
+	max-width: 350px;
+    margin: 0 auto;
+}
+
+.portfolio .images {
+	text-align: center;
+}
+
+.portfolio .images img {
+	max-width: 350px;
+	margin: 20px;
+	padding: 0;
+	box-shadow: 20px 20px 0 2px #70237d;
+}
+
 .btn-green {
 	background: #10b559;
 	box-shadow: 0 3px 0 #035d2a;
