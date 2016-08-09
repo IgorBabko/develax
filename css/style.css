@@ -1177,6 +1177,7 @@ label {
   background: rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.32);
   border-radius: 4px;
+  border: none;
   height: 50px;
   -webkit-transition: border .15s linear, color .15s linear, background-color .15s linear;
   transition: border .15s linear, color .15s linear, background-color .15s linear;
@@ -1184,7 +1185,6 @@ label {
 .form-group.focus .form-control,
 .form-control:focus {
   background: rgba(255, 255, 255, 0.30);
-  border: 1px solid rgba(255, 255, 255, 0.32);
 }
 .form-control[disabled],
 .form-control[readonly],
@@ -2256,7 +2256,10 @@ select[multiple].navbar-form .btn {
 }
 .navbar-default {
   /*background-color: #ecf0f1;*/
-  background-color: #fff;
+  background-color: black; /*#2f2f2f; #fff;*/
+  position: fixed;
+  top: 0;
+  left: 0;
 
 }
 .navbar-default .navbar-brand {
@@ -2284,12 +2287,12 @@ select[multiple].navbar-form .btn {
   border-width: 2px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #34495e;
+  color: white; /*#34495e;*/
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #f5511f; /*#1abc9c;*/
-  background-color: #f3f3f3;
+  /*background-color: #f3f3f3;*/
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -4460,8 +4463,8 @@ body.vjs-full-window {
   }
 }
 footer {
-  background-color: #282a2f;
-  color: white;
+  background-color: #464646;
+  color: black
   font-size: 15px;
   padding: 0;
 }
@@ -4480,6 +4483,7 @@ footer p {
   padding-top: 21px;
   font-size: 24px;
   line-height: 40px;
+  color: #e2e2e2;
 }
 .footer-brand {
   display: block;
@@ -4490,10 +4494,9 @@ footer p {
   width: 216px;
 }
 .footer-banner {
-  background-color: #d6532b;
+  background-color: #313131;
   color: #fff;
   margin-left: 42px;
-  min-height: 316px;
   padding: 0 30px 30px;
 }
 .footer-banner .footer-title {
@@ -4515,6 +4518,7 @@ footer p {
   border-top: 0px solid #1bc5a3;
   line-height: 19px;
   padding: 6px 0;
+  margin: 0 1px;
 }
 .footer-banner ul li:first-child {
   border-top: none;

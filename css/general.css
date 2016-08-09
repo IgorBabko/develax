@@ -93,17 +93,18 @@ margin: auto;
 .contacts-list li {
 	display: inline-block;
 	margin-right: 20px;
+	color: #e2e2e2;
 }
 
 .social-list li {
 	display: inline-block;
 	border-radius: 4px;
-	background: black;
 	padding: 10px !important;
 	width: 50px;
 	height: 50px;
 	font-size: 32px;
 	text-align: center;
+	background: #464646;
 }
 
 .wow img {
@@ -119,23 +120,26 @@ margin: auto;
 	max-width: 350px;
 	margin: 20px;
 	padding: 0;
-	box-shadow: 20px 20px 0 2px #70237d;
+	box-shadow: 10px 10px 0 2px #b34321;
 }
 
-.btn-green {
-	background: #10b559;
-	box-shadow: 0 3px 0 #035d2a;
+.btn-blue {
+	background: #168ee4;
 }
 
-.btn-green:hover {
-	background: #088c42;
+.btn-blue:hover {
+	background: #0d69ab;
+}
+
+.navbar-header {
+	height: 62px !important;
 }
 
 #owl-demo {
 	max-width: 900px;
 	margin: 0 auto;
-	background: #0ba04d;
-	box-shadow: inset 0 0 5px 2px #0a8a44;
+	background: #0d5e98;
+    box-shadow: inset 0 0 5px 2px #0f4b75;
 }
 
 .feedback-text {
@@ -313,7 +317,9 @@ background: white !important;
 }
 
 .navbar-default .navbar-nav>li>a {
-color: #ffffff;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
