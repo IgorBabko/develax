@@ -423,6 +423,36 @@ NO MORE TABLES!! ;)
 	}
 }
 
+#services h3 {
+	color: #e74c3c;
+}
+
+h2 {
+	text-transform: uppercase;
+    font-size: 56px;
+}
+
+ul.social-list {
+	list-style: none;
+	padding: 0;
+}
+
+ul.social-list li {
+	background: none;
+	margin: 0 2px;
+	border-color: #36475a;
+	color: #36475a;
+	cursor: pointer;
+	border-width: 1px;
+}
+
+ul.social-list li:hover {
+	border-color: #727f8d;
+	color: #727f8d;
+}
+
+
+
 
 
 

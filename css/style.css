@@ -2256,10 +2256,11 @@ select[multiple].navbar-form .btn {
 }
 .navbar-default {
   /*background-color: #ecf0f1;*/
-  background-color: black; /*#2f2f2f; #fff;*/
+  background-color: rgba(26,36,47,0.9); /*#34495e;*/ /*#2f2f2f; #fff;*/
   position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
 
 }
 .navbar-default .navbar-brand {
@@ -2287,11 +2288,11 @@ select[multiple].navbar-form .btn {
   border-width: 2px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: white; /*#34495e;*/
+  color: #bcd3ea; /*white;*/ /*#34495e;*/
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #f5511f; /*#1abc9c;*/
+  color: white; /*#e74c3c;*/ /*#f5511f;*/ /*#1abc9c;*/
   /*background-color: #f3f3f3;*/
 }
 .navbar-default .navbar-nav > .active > a,
@@ -4463,7 +4464,7 @@ body.vjs-full-window {
   }
 }
 footer {
-  background-color: #212121;
+  background-color: #1a242f;
   color: black
   font-size: 15px;
   padding: 0;

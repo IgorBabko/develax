@@ -98,13 +98,15 @@ margin: auto;
 
 .social-list li {
 	display: inline-block;
-	border-radius: 4px;
-	padding: 10px !important;
+	padding: 5px;
 	width: 50px;
 	height: 50px;
-	font-size: 32px;
 	text-align: center;
 	background: #212121;
+	border-radius: 50%;
+    border: 2px solid white;
+    font-size: 20px;
+    color: white;
 }
 
 .wow img {
@@ -124,11 +126,11 @@ margin: auto;
 }
 
 .btn-blue {
-	background: #168ee4;
+	background: #e74c3c;
 }
 
 .btn-blue:hover {
-	background: #0d69ab;
+	background: #b63a2d;
 }
 
 .navbar-header {
@@ -233,7 +235,8 @@ margin: auto;
 }
 
 .Portfolio__gallery .img-overlay:hover {
-	background: rgba(245, 81, 31, 0.9);
+	/*background: rgba(245, 81, 31, 0.9);*/
+	background: rgba(231, 76, 60, 0.9)
 }
 
 .img-overlay > * {
@@ -288,12 +291,12 @@ margin: auto;
 	margin-top: 20px;
 	width: 80px;
 	height: 7px;
-	background: #f4501f;
+	background: #e74c3c; /*#f4501f;*/
 }
 
 .more-button {
 	display: inline-block;
-	background: #168ee4;
+	background: #486d91; /*#168ee4;*/
     border: none;
     color: white;
     font-size: 16px;
@@ -301,6 +304,7 @@ margin: auto;
     border-radius: 4px;
     font-weight: bold;
     transition: all 0.1s ease-in-out;
+    margin-bottom: 30px;
 }
 
 .more-button:hover,
@@ -325,8 +329,8 @@ margin: auto;
 #owl-demo {
 	max-width: 900px;
 	margin: 0 auto;
-	background: #0e7bca;
-    box-shadow: inset 0 0 5px 2px #0d68ab;
+	background: #bc3e31;
+    box-shadow: inset 0 0 5px 2px #9f362b;
 }
 
 .feedback-text {
@@ -497,9 +501,9 @@ background: white !important;
 }
 
 .navbar-default {
-	position: relative;
+	/*position: relative;*/
 	min-height: 60px;
-	width: 100%;
+	/*width: 100%;*/
 	z-index: 999;
 	
 }
@@ -537,7 +541,8 @@ color: #ECEBEB;
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	color: #f8f8f8;
-	background: url(../img/background44.jpg) no-repeat center center;
+	/*background: url(../img/bg_main.jpg) no-repeat center center;*/
+	background: url(../img/background_new_new.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
